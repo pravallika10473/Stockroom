@@ -27,7 +27,7 @@ robot is close enough to a bin to detect its ALVAR marker, after which it will g
 an arm motion planner goal that is relative to the bin and MoveIt is used for motion planing and octomap package was also used.
 ![Pick up from 2nd bin](https://user-images.githubusercontent.com/68220390/175505162-0eadb7ca-5df1-429e-b104-5e3e075ed440.jpg)
                        Picking up the item from the 2nd bin (0th bin ,1st bin)
-* To deliver the item to the customer counter outside the stockroom,the robot has to navigate to a position behind the counter, extend the arm, open the gripper to drop the object, and then retract the arm and return to the stockroom, which was implemented in deliver_to_counter.py
+* To deliver the item to the customer counter,the robot has to navigate to a position behind the counter, extend the arm, open the gripper to drop the object, and then retract the arm and return to the stockroom, which was implemented in deliver_to_counter.py
 ![Screenshot (221)](https://user-images.githubusercontent.com/68220390/175506960-3b4cda4a-7320-47f7-b91e-a292a5c5969d.png)
 
 
