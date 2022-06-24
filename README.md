@@ -8,6 +8,9 @@ This repository contains the full autonomy stack (implemented on ROS) for fetch 
 * In order to automate rather than individual repetition of the stockroom creation with 12 bins, 12 ALVAR tags and walls EmPy XML(stockroom.world.em) is used.
 * empy stockroom.world.em >stockroom.world command creates the stockroom.world with 12 bins ,ALVAR tags and walls.
 * To stock the 12 bins with products at a particular position in the bins stock_products.py was written, coke model was used.
+* stockroom_bot.launch file which contains the stockroom.world and fetch.launch.xml(https://github.com/fetchrobotics/fetch_gazebo.git) was used to launch the stockroom world and fetch from the command line.
+# Map 
+*
 
 
 
